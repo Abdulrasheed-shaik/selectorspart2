@@ -8,6 +8,10 @@ a{
     margin: 20px;
     color: white;
 }
+a:hover{
+    text-decoration:underline;
+    text-decoration-color: lightgreen;
+}
 #home,#portfolio,#skills,#about,#contact{
     padding: 20px;
     background-color: white;
