@@ -1,7 +1,15 @@
-header{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    header{
     text-align: center;
     padding: 20px;
     background-color: skyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -17,7 +25,10 @@ a:hover{
     background-color: white;
     box-shadow: 0 0 5px grey;
     width: 50%;
-    margin: 20px auto;
+    margin: 30px auto;
+}
+#home{
+    margin-top: 70px;
 }
 #home h1{
     text-align: center;
